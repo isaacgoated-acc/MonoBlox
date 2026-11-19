@@ -12,7 +12,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
-    <PackageReference Include="AWSSDK.Core" Version="3.7.500.66" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.502.61" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
@@ -25,58 +25,72 @@
     <ProjectReference Include="..\\..\\Universes\\Roblox.Platform.Universes\\Roblox.Platform.Universes.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.Universes</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Membership\\Roblox.Platform.Membership\\Roblox.Platform.Membership.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.Membership</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Chat\\Roblox.Platform.Chat\\Roblox.Platform.Chat.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.Chat</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\..\\Events\\Roblox.EventLog\\Roblox.EventLog.csproj">
       <Project>
       </Project>
+      <Name>Roblox.EventLog</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Assets\\Roblox.Platform.Assets\\Roblox.Platform.Assets.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.Assets</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\..\\Redis\\Roblox.Redis\\Roblox.Redis.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Redis</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\..\\Locking\\Roblox.Locking\\Roblox.Locking.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Locking</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Core\\Roblox.Platform.Core\\Roblox.Platform.Core.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Counters\\Roblox.Platform.EphemeralCounters\\Roblox.Platform.EphemeralCounters.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.EphemeralCounters</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Notifications\\Roblox.Platform.RealTimeNotifications\\Roblox.Platform.RealTimeNotifications.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.RealTimeNotifications</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\..\\Configuration\\Roblox.Configuration\\Roblox.Configuration.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\..\\Amazon\\Roblox.Amazon.Sns\\Roblox.Amazon.Sns.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Amazon.Sns</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\..\\Instrumentation\\Roblox.Instrumentation\\Roblox.Instrumentation.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Instrumentation</Name>
     </ProjectReference>
     <ProjectReference Include="..\\..\\Assets\\Roblox.Platform.AssetsCore\\Roblox.Platform.AssetsCore.csproj">
       <Project>
       </Project>
+      <Name>Roblox.Platform.AssetsCore</Name>
     </ProjectReference>
     <PackageReference Include="StackExchange.Redis" Version="1.2.6" />
   </ItemGroup>
